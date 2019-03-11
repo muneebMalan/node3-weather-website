@@ -31,7 +31,7 @@ app.get('/about', (req, res) => {
 })
 
 app.get('/help', (req, res) => {
-  res.render('help', {title: 'Help', helpMessage:'This page is here to help you', name:'Muneeb'})
+  res.render('help', {title: 'Help', helpMessage:'In the Weather tab, you can put in a location and when you press search you wil get the weather for that location', name:'Muneeb'})
 })
 
 app.get('/weather', (req, res) => {
